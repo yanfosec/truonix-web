@@ -1,4 +1,4 @@
-baseurl = "http://truonix.netlify.com/"
+baseurl = "https://truonix.netlify.com/"
 languageCode = "en-us"
 title = "Truonix"
 theme = "osprey"
@@ -9,13 +9,13 @@ disqusShortname = "yanfosec"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
 [Params]
-    tagline = "Future Home of Truonix"
+    tagline = "Future Home of Truonix..."
     author = "Yan Kravchenko"
     description = "Redefining Partnership in Information and Application Security."
     logoBig = "/images/truonix-logo.png"
     logoSmall = "/images/truonix-logo.png"
     favicon = "favicon.ico"
-    opengraphImage = "/images/osprey.png"
+    opengraphImage = "/images/truonix-logo.png"
     twitter = "yanfosec"
     linkedin = "yankravchenko"
     github = "yanfosec"
