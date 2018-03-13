@@ -1,4 +1,4 @@
-baseurl = "https://truonix.netlify.com/"
+baseurl = "http://truonix.netlify.com/"
 languageCode = "en-us"
 title = "Truonix"
 theme = "osprey"
