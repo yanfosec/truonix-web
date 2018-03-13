@@ -1,11 +1,11 @@
 +++
 date = "2018-03-12T20:55:44-05:00"
 draft = false
-title = "about"
+title = "About"
 
 +++
 
-# Who are we here?
+# Who are we?
 Truonix is a new venture that will focus on bringing meaningful solutions and real partnerships in the field of Information and Application Security.  Over several years the information security industry has evolved past the typical "silver-biullet" solutions and is ready for an approach that's uniquely different and re-establishes what it is to form a meaningful and productive partnership.
 
 # Who are we not?
