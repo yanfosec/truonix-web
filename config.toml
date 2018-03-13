@@ -1,0 +1,40 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Truonix"
+tags = ["appsec", "security", "governance"]
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "yanfosec"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Future Home of Truonix"
+    author = "Yan Kravchenko"
+    description = "Redefining Partnership in Information and Application Security."
+    logoBig = "/images/truonix-logo.png"
+    logoSmall = "/images/truonix-logo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    twitter = "yanfosec"
+    linkedin = "tomanistor"
+    github = "yanfosec"
+    email = "yan@yanfosec.com"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 2
+
