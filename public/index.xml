@@ -6,9 +6,20 @@
     <description>Recent content on Truonix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 12 Mar 2018 20:55:44 -0500</lastBuildDate>
     
 	<atom:link href="http://truonix.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>about</title>
+      <link>http://truonix.netlify.com/about/</link>
+      <pubDate>Mon, 12 Mar 2018 20:55:44 -0500</pubDate>
+      
+      <guid>http://truonix.netlify.com/about/</guid>
+      <description>Why are we here? Truonix is a new venture that will focus on bringing meaningful solutions and real partnerships in the field of Information and Application Security. Over several years the information security industry has evolved past the typical &amp;ldquo;silver-biullet&amp;rdquo; solutions and is ready for an approach that&amp;rsquo;s uniquely different and re-establishes what it is to form a meaningful and productive partnership.
+Who are we not? The industry is saturated with security companies, and it may be a good idea to explain who we are NOT: * We are not resellers of security products and don&amp;rsquo;t have a magic solution to everyone&amp;rsquo;s security challenges.</description>
+    </item>
     
   </channel>
 </rss>
