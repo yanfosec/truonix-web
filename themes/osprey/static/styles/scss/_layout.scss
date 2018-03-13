@@ -30,7 +30,7 @@ header {
   background-color: $white;
 
   div { z-index: 101; }
-  img { max-height: $vertical-rhythm * 8; }
+
   h1 { font-family: $font-body; }
   .cursor { animation: 1s blink step-end infinite; }
 }
