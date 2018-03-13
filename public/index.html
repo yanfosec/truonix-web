@@ -76,7 +76,7 @@
   <header class="row middle-xs center-xs">
     <div class="col-xs-12">
       <div class="row middle-xs center-xs">
-        <div class="col-xs-12"><img src="http://truonix.netlify.com/images/truonix-logo.png" style="width:25%;height:25%;" alt="Truonix"></div>
+        <div class="col-xs-12"><img src="http://truonix.netlify.com/images/truonix-logo.png" alt="Truonix"></div>
       </div>
       <div class="row middle-xs center-xs">
         <div class="col-xs-12">
@@ -134,7 +134,7 @@
           
             
 
-<h1 id="why-are-we-here">Why are we here?</h1>
+<h1 id="who-are-we-here">Who are we here?</h1>
 
 <p>Truonix is a new venture that will focus on bringing meaningful solutions and real partnerships in the field of Information and Application Security.  Over several years the information security industry has evolved past the typical &ldquo;silver-biullet&rdquo; solutions and is ready for an approach that&rsquo;s uniquely different and re-establishes what it is to form a meaningful and productive partnership.</p>
 
@@ -147,7 +147,7 @@
 
 <h1 id="why-is-the-website-so-cryptic-and-does-not-have-more-information">Why is the website so cryptic and does not have more information?</h1>
 
-<p>We are currently in the process of engaging with a few select organizations as Beta clients.  In the beginning, we would like to focus on organizations that manage 100+ custom application deployments.  Over the next year we will build our solutions and services to a point when we will actively solicit new business.  For now, we have to be selective.  Having said that, if you are interested in being one of our first clients, please email <a href="mailto:info@truonix.com">Us</a></p>
+<p>We are currently in the process of engaging with a few select organizations as Beta clients.  In the beginning, we would like to focus on organizations that manage 100+ custom application deployments.  Over the next year we will build our solutions and services to a point when we will actively solicit new business.  For now, we have to be selective.  Having said that, if you are interested in being one of our first clients, please <a href="mailto:info@truonix.com">email us</a></p>
 
           
         </div>
@@ -157,25 +157,28 @@
 
 
       
+
+
 <section class="contact" id="contact">
   <div class="container">
 
     <div class="row">
       <div class="col-xs-12">
-        <h1>Want to know more?</h1>
+        <h1>Contact Us</h1>
       </div>
     </div>
 
-    <form id="form-contact" action="https://formspree.io/ykravchenko@luriellp.com" method="POST">
+    <form action="https://formspree.io/ykravchenko@luriellp.com" method="POST">
       <div class="row center-xs">
         <div class="col-xs-12 col-sm-6"><input type="text" name="name" placeholder="Name" required></div>
-        <div class="col-xs-12 col-sm-6"><input type="email" name="email" placeholder="Email" required></div>
         <div class="col-xs-12 col-sm-6"><input type="text" name="company" placeholder="Company" required></div>
         <div class="col-xs-12 col-sm-6"><input type="text" name="phone" placeholder="Phone" required></div>
-        <div class="col-xs-12"><input type="text" name="_subject" placeholder="Subject" required></div>
+        <div class="col-xs-12 col-sm-6"><input type="text" name="_replyto" placeholder="Email" required></div>
         <div class="col-xs-12"><textarea name="message" placeholder="Message" required></textarea></div>
-        <input type="text" name="_gotcha" style="display:none">
-        <input type="hidden" name="_next" value="/">
+        <input type="hidden" name="_subject" value="New Truonix Form submission!" />
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_format" value="plain" />
+        <input type="hidden" name="_next" value="http://truonix.netlify.com//#thankyou">
         <div class="col-xs-12 contact-submit">
           <input id="form-submit" type="submit" value="Send">
           <span id="form-thankyou" style="visibility:hidden">Thanks for your email!</span>
@@ -185,6 +188,8 @@
 
   </div>
 </section>
+
+
 
 
     </main>
@@ -218,11 +223,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
   <script src="http://truonix.netlify.com/scripts/index.min.js" type="text/javascript"></script>
-  
-    <script>
-      $("#form-contact").addEventListener("submit",function(e){e.preventDefault();var s=$("input[name=name]").value,t=$("input[name=email").value,i=$("input[name=_subject").value,a=$("textarea[name=message]").value,n=new XMLHttpRequest,l={name:s,_replyto:t,email:t,_subject:i,message:a};n.open("POST","https://formspree.io/ykravchenko@luriellp.com",!0),n.setRequestHeader("Content-Type","application/json; charset=UTF-8"),n.onreadystatechange=function(){function e(){t.style.visibility="hidden",t.classList.add("hide"),t.classList.remove("show"),s.style.visibility="visible",s.classList.add("show"),s.classList.remove("hide")}if(4==n.readyState&&200==n.status){$("#form-contact").reset();var s=$("#form-submit"),t=$("#form-thankyou");!function(){s.style.visibility="hidden",s.classList.add("hide"),s.classList.remove("show"),t.style.visibility="visible",t.classList.add("show"),t.classList.remove("hide"),setTimeout(e,6e3)}()}},n.send(JSON.stringify(l))});
-
-    </script>
   
 
 

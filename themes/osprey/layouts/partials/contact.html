@@ -19,8 +19,7 @@
         <input type="text" name="_gotcha" style="display:none">
         <input type="hidden" name="_next" value="/">
         <div class="col-xs-12 contact-submit">
-          <input id="form-submit" type="submit" value="Send">
-          <span id="form-thankyou" style="visibility:hidden">Thanks for your email!</span>
+          <input type="submit" value="Send">
         </div>
       </div>
     </form>
@@ -39,13 +38,17 @@
       </div>
     </div>
 
-    <form id="form-contact" action="https://formspree.io/{{ .Site.Params.email }}" method="POST">
+    <form action="https://formspree.io/{{ .Site.Params.email }}" method="POST">
       <div class="row center-xs">
         <div class="col-xs-12 col-sm-6"><input type="text" name="name" placeholder="Name" required></div>
         <div class="col-xs-12 col-sm-6"><input type="text" name="company" placeholder="Company" required></div>
         <div class="col-xs-12 col-sm-6"><input type="text" name="phone" placeholder="Phone" required></div>
-        <div class="col-xs-12 col-sm-6"><input type="text" name="email" placeholder="Email" required></div>
+        <div class="col-xs-12 col-sm-6"><input type="text" name="_replyto" placeholder="Email" required></div>
         <div class="col-xs-12"><textarea name="message" placeholder="Message" required></textarea></div>
+        <input type="hidden" name="_subject" value="New Truonix Form submission!" />
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_format" value="plain" />
+        <input type="hidden" name="_next" value="{{ .Site.BaseURL }}/thankyou.html">
         <div class="col-xs-12 contact-submit">
           <input id="form-submit" type="submit" value="Send">
           <span id="form-thankyou" style="visibility:hidden">Thanks for your email!</span>
