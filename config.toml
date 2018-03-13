@@ -1,6 +1,7 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
 title = "Truonix"
+theme = "osprey"
 tags = ["appsec", "security", "governance"]
 canonifyURLS = true
 googleAnalytics = ""
@@ -16,7 +17,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
     favicon = "favicon.ico"
     opengraphImage = "/images/osprey.png"
     twitter = "yanfosec"
-    linkedin = "tomanistor"
+    linkedin = "yankravchenko"
     github = "yanfosec"
     email = "yan@yanfosec.com"
     googleTagManager = ""
