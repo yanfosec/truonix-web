@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://truonix.netlify.com/"
 languageCode = "en-us"
 title = "Truonix"
 theme = "osprey"
